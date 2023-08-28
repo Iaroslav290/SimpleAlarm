@@ -16,6 +16,7 @@
 		C45F9AE62999B9BF00C0D0E1 /* alarmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F9AE52999B9BF00C0D0E1 /* alarmTests.swift */; };
 		C45F9AF02999B9BF00C0D0E1 /* alarmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F9AEF2999B9BF00C0D0E1 /* alarmUITests.swift */; };
 		C45F9AF22999B9BF00C0D0E1 /* alarmUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45F9AF12999B9BF00C0D0E1 /* alarmUITestsLaunchTests.swift */; };
+		C45F9B032999C5A500C0D0E1 /* Stan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C45F9B022999C5A500C0D0E1 /* Stan.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C45F9AEB2999B9BF00C0D0E1 /* alarmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = alarmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45F9AEF2999B9BF00C0D0E1 /* alarmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmUITests.swift; sourceTree = "<group>"; };
 		C45F9AF12999B9BF00C0D0E1 /* alarmUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C45F9B022999C5A500C0D0E1 /* Stan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Stan.mp3; path = "../../../../Music/Music/Media.localized/Music/Unknown Artist/Unknown Album/Stan.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				C45F9ACE2999B9BE00C0D0E1 /* AppDelegate.swift */,
 				C45F9AD02999B9BE00C0D0E1 /* SceneDelegate.swift */,
 				C45F9AD22999B9BE00C0D0E1 /* ViewController.swift */,
+				C45F9B022999C5A500C0D0E1 /* Stan.mp3 */,
 				C45F9AD42999B9BE00C0D0E1 /* Main.storyboard */,
 				C45F9AD72999B9BE00C0D0E1 /* Assets.xcassets */,
 				C45F9AD92999B9BE00C0D0E1 /* LaunchScreen.storyboard */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45F9B032999C5A500C0D0E1 /* Stan.mp3 in Resources */,
 				C45F9ADB2999B9BE00C0D0E1 /* LaunchScreen.storyboard in Resources */,
 				C45F9AD82999B9BE00C0D0E1 /* Assets.xcassets in Resources */,
 				C45F9AD62999B9BE00C0D0E1 /* Main.storyboard in Resources */,
@@ -437,6 +441,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BBZ3F39P6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = alarm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -449,7 +454,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.alarm";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alarm1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,6 +469,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BBZ3F39P6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = alarm/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -476,7 +482,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-.alarm";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.alarm1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
